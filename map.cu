@@ -4,7 +4,7 @@
 #include "device_launch_parameters.h"
 
 const int pointcount=32768;
-const float3 Dt = { 0.01f,0.01f,0.01f };
+const float Dt = 0.01f;
 float3 *device_p1 = NULL, *device_v1 = NULL, *device_a1 = NULL;
 float *device_m = NULL;
 
