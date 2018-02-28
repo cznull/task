@@ -8,5 +8,6 @@
 #include <math.h>
 #include <stdio.h>
 
-int cudainit(HWND hWnd);
+int cudainit(HWND, GLuint);
 int cudacalc(void);
+int cudafin(void);
