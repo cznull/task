@@ -1,4 +1,4 @@
-#include "map.h"
+#include "mpa.h"
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
 #include <cuda_gl_interop.h>
